@@ -10,77 +10,49 @@
   </head>
   <body>
     <header class="header">
-      <div class="upper-menu">
-        <div class="upper-menu__left">
-          <img class="upper-menu__icon icon" src="img/burger.svg" alt="menu" />
-          <div
-            class="upper-menu__divider divider upper-menu__divider_hidden"
-          ></div>
-          <img class="upper-menu__logo logo" src="img/logo.svg" alt="CPS" />
-        </div>
-        <div class="upper-menu__right">
-          <img
-            class="upper-menu__icon icon upper-menu__icon_hidden"
-            src="img/call.svg"
-            alt="call"
-          />
-          <img
-            class="upper-menu__icon icon upper-menu__icon_hidden"
-            src="img/chat.svg"
-            alt="chat"
-          />
-          <img
-            class="upper-menu__icon icon upper-menu__icon_hidden"
-            src="img/profile.svg"
-            alt="profile"
-          />
-          <div class="upper-menu__divider divider"></div>
-          <img
-            class="upper-menu__icon icon"
-            src="img/repair.svg"
-            alt="repair"
-          />
-          <img
-            class="upper-menu__icon icon"
-            src="img/checkstatus.svg"
-            alt="check status"
-          />
-        </div>
-      </div>
-      <div class="shadow"></div>
+      <img class="header__icon" src="img/burger.svg" alt="menu" />
+      <div class="header__divider divider header__divider_hidden"></div>
+      <img class="header__logo logo" src="img/logo.svg" alt="CPS" />
+      <img
+        class="header__icon icon header__icon_hidden"
+        src="img/call.svg"
+        alt="call"
+      />
+      <img
+        class="header__icon icon header__icon_hidden"
+        src="img/chat.svg"
+        alt="chat"
+      />
+      <img
+        class="header__icon icon header__icon_hidden"
+        src="img/profile.svg"
+        alt="profile"
+      />
+      <div class="header__divider divider"></div>
+      <img class="header__icon icon" src="img/repair.svg" alt="repair" />
+      <img
+        class="header__icon icon"
+        src="img/checkstatus.svg"
+        alt="check status"
+      />
     </header>
 
     <div class="main">
-      <div class="headline">
-        <div class="title">
-          <img
-            class="title__highlight"
-            src="img/highlight.svg"
-            alt="highlight"
-            width="4px"
-            height="40px"
-          />
-          <h1 class="title__heading">Услуги и сервисы</h1>
-        </div>
+      <div class="main__heading heading">
+        <h1 class="heading__item title">Услуги и сервисы</h1>
 
-        <div class="mini-menu mini-menu_hidden">
-          <div class="mini-menu__repair">
-            <a class="mini-menu__link" href="#">Оставить заявку</a>
-            <img
-              class="mini-menu__icon icon"
-              src="img/repair.svg"
-              alt="repair"
-            />
-          </div>
-          <div class="mini-menu__check-status"></div>
-          <a class="mini-menu__link" href="#">Статус ремонта</a>
-          <img
-            class="mini-menu__icon icon"
-            src="img/checkstatus.svg"
-            alt="check status"
-          />
-        </div>
+        <p class="heading__item">
+          <a class="link" href="#">Оставить заявку</a>
+        </p>
+        <img class="heading__item icon" src="img/repair.svg" alt="repair" />
+        <p class="heading__item"><a class="link" href="#">Статус ремонта</a></p>
+        <img
+          class="heading__item icon"
+          src="img/checkstatus.svg"
+          alt="check status"
+        />
       </div>
+
       <nav class="slide-menu">
         <button class="slide-menu__btn slide-menu__btn_active">
           Ремонтируемые устройства
@@ -93,8 +65,8 @@
       </nav>
 
       <section class="content">
-        <div class="content__inf">
-          <article class="content__text text">
+        <article class="content__reading">
+          <p class="content__text text">
             Мы являемся авторизованным сервисным центром по ремонту техники
             Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
             официальной гарантией производителя. <br />
@@ -103,21 +75,11 @@
             партнера, что подтверждает большое количество постоянных клиентов.
             Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
             очередь, советуют нас родным и близким.
-          </article>
-          <div class="content__read-more">
-            <img
-              class="content__expand"
-              src="img/expand.svg"
-              alt="expand"
-              width="24px"
-              height="24px"
-            />
-            <h2 class="content__h2">Читать далее</h2>
-          </div>
-        </div>
-        <div class="content__picture">
-          <img class="picture" src="img/pic.png" alt="picture" />
-        </div>
+          </p>
+          <h2 class="content__read-more">Читать далее</h2>
+        </article>
+
+        <img class="content__picture" src="img/pic.png" alt="picture" />
       </section>
     </div>
   </body>
